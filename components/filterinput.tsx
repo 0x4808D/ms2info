@@ -7,7 +7,7 @@ import {
   Select,
 } from "@mui/material";
 
-const FilterInput = ({ label, onChange, value, children }) => {
+const FilterInput = ({ label, onChange, value, children }: any) => {
   return (
     <FormControl sx={{ m: 1, width: 300 }}>
       <InputLabel id={`filter-input-${label}`}>{label}</InputLabel>

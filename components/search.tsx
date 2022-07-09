@@ -44,7 +44,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export const SearchBar = ({ onChange, value }) => {
+export const SearchBar = ({ onChange, value }: any) => {
   return (
     <Search>
       <SearchIconWrapper>
